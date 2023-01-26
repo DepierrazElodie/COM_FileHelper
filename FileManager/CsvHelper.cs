@@ -37,7 +37,7 @@
             {
                 throw new UnsupportedSeparatorException();
             }
-            if (this.Lines.Count == 0)
+            if (this._fullPath==null)
             {
                 throw new StructureException();
             }
